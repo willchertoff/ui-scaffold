@@ -1,6 +1,6 @@
 # ui-scaffold
 
-This repo contains everything you need to start a project with React, Redux and SASS. The build system uses Webpack, tests are run with Mocha, while Babel is used to transpile ES6 / ES7 to cross browser friendly Javascript.
+This repo contains everything you need to start a project with React, Redux and SASS. The build system uses Webpack, tests are run with Mocha, while Babel is used to transpile ES6 / ES7 to cross browser friendly Javascript. Commitizen and ghooks are used to ensure repository stays linted with eslint. 
 
 ## To run it locally
 1. `$ npm install`
@@ -20,3 +20,9 @@ This repo contains everything you need to start a project with React, Redux and 
 4. [SASS](http://sass-lang.com/documentation/file.SASS_REFERENCE.html)
 5. [Mocha](http://mochajs.org/)
 6. [ES6](https://github.com/lukehoban/es6features)
+
+Thanks [Andrew](https://github.com/andrewngu/ui-scaffold) for the inspiring work.
+
+
+## Todo 
+1. Add coverage testing.

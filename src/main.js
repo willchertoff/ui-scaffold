@@ -18,5 +18,5 @@ ReactDOM.render(
       <Route path="/" component={AppContainer} />
     </Router>
   </Provider>,
-  document.getElementById('main')
+  document.getElementById('main') // eslint-disable-line
 );
