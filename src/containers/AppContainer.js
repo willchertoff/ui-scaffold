@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { withRouter } from 'react-router';
 import { connect } from 'react-redux';
 import App from '../components/App';
 
@@ -10,11 +11,12 @@ class AppContainer extends Component {
   }
 }
 
-function mapStateToProps(state) {
+function mapStateToProps(state, { params }) {
   const { message } = state;
   return {
+    panel: params.panel || 'photo-stream',
     message,
   };
 }
 
-export default connect(mapStateToProps)(AppContainer);
+export default withRouter(connect(mapStateToProps)(AppContainer));

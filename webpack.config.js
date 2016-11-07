@@ -23,6 +23,7 @@ module.exports = {
   plugins: [ignore],
   devServer: {
     host: '0.0.0.0',
-    proxy: {}
+    proxy: {},
+    historyApiFallback: true,
   }
 };
