@@ -15,7 +15,7 @@ const store = configureStore();
 ReactDOM.render(
   <Provider store={store} >
     <Router history={browserHistory} >
-      <Route path="/(:panel)" component={AppContainer} />
+      <Route path="/" component={AppContainer} />
     </Router>
   </Provider>,
   document.getElementById('main')
